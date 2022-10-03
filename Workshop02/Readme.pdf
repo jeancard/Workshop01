@@ -1,4 +1,4 @@
-![Perfil de Github](https://github.com/jeancard)
+[Perfil de Github](https://github.com/jeancard)
 
 # Configuración de vagrant
 
@@ -13,7 +13,7 @@
 
 3. Se inicializó vagrant en modo ssh, con el siguiente comando: `vagrant ssh`
 
-![Vagrant](images/Vagrant ssh.png)
+![Publickey](images/Vagrant ssh.png)
 
 4. Se relizó la configuración de la llave publica en vagrant, mediante el siguiente comado: `cat /vagrant/isw811-322-g1.pub >> .ssh/authorized_keys`.
 
@@ -26,7 +26,7 @@
 
 2. Se habilitaron 3 modulos requeridos en apache, con el siguiente comando: `sudo a2enmod vhost_alias rewrite ssl`.
 
-![Apache_config2](images/Apache_config2.png)
+![Apache_config](images/Apache_config2.png)
 
 3. Se creó estructura del archivo html para visualizarlo desde al navegador, se crea en la carpeta publica, se utiliza el siguiente comando: `echo "¡Hola Mundo!" > ~/sites/lfts.isw811.xyz/public/index.html`.
   
